@@ -1,7 +1,7 @@
 set number
 color sillymon
 set ai
-cd /home/devel/sites/
+cd {defaultDirectory}
 set cindent
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 set incsearch
