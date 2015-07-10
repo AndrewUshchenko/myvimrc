@@ -8,6 +8,7 @@ set incsearch
 set hlsearch
 set noswapfile
 nmap <c-l> :TlistToggle
+#add macros -> in command line 'qa -> :tabnew -> :e. -> q'
 nmap <TAB> :@a<CR>
 let g:airline_theme='ubaryd'
 let g:airline_left_sep = '▶'
